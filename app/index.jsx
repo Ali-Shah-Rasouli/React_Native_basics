@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Link } from 'expo-router';
 import { Image, StyleSheet, Text, View } from 'react-native';
 export default function Index(){
@@ -20,6 +21,17 @@ export default function Index(){
 
 
   </View>); 
+=======
+import { Text, View, StyleSheet } from 'react-native';
+import { Link } from 'expo-router'
+
+export default function Index(){
+   return ( 
+   <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} > 
+   <Text> Hi this is the first page </Text> 
+   <Link href="/lessons/session1" Style={styles.link} > Go to Session 1 </Link>
+   </View>); 
+>>>>>>> 84def35 ( layout added)
    }
 
 
