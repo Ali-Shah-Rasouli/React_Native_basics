@@ -1,3 +1,4 @@
+import { Link } from 'expo-router';
 import { Image, StyleSheet, Text, View } from 'react-native';
 export default function Index(){
    return ( 
@@ -12,10 +13,12 @@ export default function Index(){
     <View>
         <Text style={Styles.card}> Choose the lesson</Text>
     </View>
-    
-    
-    
-   
+      <Link href="/lessons/session1" style={styles.link}>Session 1</Link>
+      <Link href="/lessons/session2" style={styles.link}>Session 2</Link>
+      <Link href="/lessons/session3" style={styles.link}>Session 3</Link>
+      <Link href="/lessons/session4" style={styles.link}>Session 4</Link>
+
+
   </View>); 
    }
 
@@ -50,6 +53,11 @@ export default function Index(){
     alignSelf: 'center',
     marginTop: 20
   },
+  link: {
+    padding: 10,
+    fontWeight: 'bold',
+    fontSize: 18,
+  }
 
    });
 
