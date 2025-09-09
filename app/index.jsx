@@ -1,33 +1,28 @@
 
 import { Link } from 'expo-router';
 import { Image, StyleSheet, Text, View } from 'react-native';
-export default function Index(){
+export default function Home(){
    return ( 
    <View style={Styles.container} > 
 
    <Image source={require('../assets/images/R.jpg')} style={Styles.avatar}/>
-
-
     <Text style={Styles.title1}> Welcome and Lets learn React-Native </Text>
-
-
     <View>
         <Text style={Styles.card}> Choose the lesson</Text>
     </View>
-      <Link href="/lessons/session1" style={styles.link}>Session 1</Link>
-      <Link href="/lessons/session2" style={styles.link}>Session 2</Link>
-      <Link href="/lessons/session3" style={styles.link}>Session 3</Link>
-      <Link href="/lessons/session4" style={styles.link}>Session 4</Link>
-
-
-  </View>);
+      <Link href="/lessons/session1" style={Styles.link}>Session 1</Link>
+      <Link href="/lessons/session2" style={Styles.link}>Session 2</Link>
+      <Link href="/lessons/session3" style={Styles.link}>Session 3</Link>
+      <Link href="/lessons/session4" style={Styles.link}>Session 4</Link>
+  </View>
+  );
 }
-
-   const Styles = StyleSheet.create({ 
+ 
+   const Styles = StyleSheet.create({
     container: {
-      alignContent:'center',
-      justifyContent:'top',
       flex:1,
+      alignItems:'center',
+      justifyContent:'flex-start',
       backgroundColor:'#fff',
    },
    title1:{
@@ -44,13 +39,18 @@ export default function Index(){
     boxShadow:'4px 4px rgba(0,0,0,0.3)',
     alignSelf:'flex-start',
     marginLeft :10,
+    borderColor:'#333',
+    borderWidth:1,
+    fontWeight:'bold',
+    marginBottom:10
    },
     avatar: {
     width: 100,
     height: 100,
     borderRadius: 50,
     alignSelf: 'center',
-    marginTop: 20
+    marginTop: 20,
+   
   },
   link: {
     padding: 10,

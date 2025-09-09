@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 
 export default function Lesson1(){
    return ( 
@@ -10,12 +10,7 @@ export default function Lesson1(){
      <Text>
         React Native is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities. React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
      </Text>
-     <Text>
-        React Native is an open-source mobile application framework created by Facebook. It is used to develop applications for Android, iOS, Web and UWP by enabling developers to use React along with native platform capabilities. React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.
-     </Text>
-    
-    
-    
+           
    
   </View>); 
    }
