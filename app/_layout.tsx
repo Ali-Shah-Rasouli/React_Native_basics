@@ -17,11 +17,12 @@ container: {
   flex : 1,
   justifyContent: 'center',
   alignItems: 'center',
-  backgroundColor: '#c4c1c1ff',
+  backgroundColor: '#0c29d0ff',
 },
 MyText: {
   fontWeight: 'bold',
   fontSize: 16,
+  color: 'white'
 }
 
 
