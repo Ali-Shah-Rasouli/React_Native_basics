@@ -8,7 +8,6 @@ export default function MyCard(){
     return (
         <View style={styles.card}>
           <View> <MyAvatar /> </View>
-          <View> <Title /> </View>
            <ChangeButton />
                 
         </View>
@@ -17,7 +16,7 @@ export default function MyCard(){
 
 const styles = StyleSheet.create({
 card : {
-    width: 250,
+    width: 300,
     padding: 20,
     height:400,
     backgroundColor: '#f7f3f3ff',
