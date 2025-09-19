@@ -1,11 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
+import ChangeButton from './ChangeButton';
 
 const TitleComponent = ({ title, subtitle }) => {
   return (
     <View style={styles.titleContainer}>
-      <Text style={styles.title}> Ali Shah Rasouli</Text>
-      <Text style={styles.subtitle}> React developer</Text>
+      {/* <Text style={styles.title}> {title}</Text>
+      <Text style={styles.subtitle}>{subtitle}</Text> */}
     </View>
   );
 };

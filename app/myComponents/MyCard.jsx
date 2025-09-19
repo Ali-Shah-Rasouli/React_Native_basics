@@ -9,7 +9,7 @@ export default function MyCard(){
         <View style={styles.card}>
           <View> <MyAvatar /> </View>
           <View> <Title /> </View>
-          <View> <ChangeButton /> </View>
+           <ChangeButton />
                 
         </View>
     )
