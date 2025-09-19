@@ -1,14 +1,14 @@
 import React from "react";
-import { View, StyleSheet, Image} from 'react-native';
+import { View, StyleSheet, Text} from 'react-native';
 import MyAvatar from "./MyAvatar";
+import Title from './Title';
 
 export default function MyCard(){
     return (
         <View style={styles.card}>
-          <View>
-           <MyAvatar />
-          </View>
-
+          <View> <MyAvatar /> </View>
+          <View> <Title /> </View>
+                
         </View>
     )
 }

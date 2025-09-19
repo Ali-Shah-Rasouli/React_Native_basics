@@ -6,9 +6,8 @@ export default function App(){
   return (
     <View style={Styles.container}>
 <Text style={Styles.MyText}> The First React Native Home Work </Text>
-    <View>
-      < MyCard />
-    </View>
+    <View> < MyCard /></View>
+   
     </View>
   )
 }
@@ -22,7 +21,7 @@ container: {
 },
 MyText: {
   fontWeight: 'bold',
-  fontSize: 20,
+  fontSize: 16,
 }
 
 
